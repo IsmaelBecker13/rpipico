@@ -22,7 +22,7 @@ while True:
         elif not sw.value():
             bandera = True
         led_rojo.toggle()
-        time.sleep_ms(5) # cambiar a 300 para ver los destellos
+        time.sleep_ms(5) # cambiar a 300 para ver los destellos perceptibles
     except KeyboardInterrupt:
         print('Keyboard interrupt at loop level.')
         break
